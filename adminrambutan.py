@@ -5,7 +5,7 @@ import pymysql
 #koneksi sql
 def connect_toko():
     conn = pymysql.connect(
-        host='localhost', user='root', password='', db='db_posttest_ims')
+        host='localhost', user='root', password='', db='db_userurdb')
     return conn
 
 db_toko = connect_toko()
