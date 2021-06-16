@@ -5,14 +5,14 @@ import pymysql
 #koneksi sql
 def connect_toko():
     conn = pymysql.connect(
-        host='localhost', user='root', password='', db='db_posttest_ims')
+        host='localhost', user='root', password='', db='db_useurdb')
     return conn
 
 db_toko = connect_toko()
 database = db_toko.cursor()
 
 #token
-token = ("1805402296:AAHWPVNLZjWp_Z_9goofg2efKRrkaatQ83A")
+token = ("somethingliketokentelegram")
 bot = telebot.TeleBot(token)
 
 nama_toko = None
