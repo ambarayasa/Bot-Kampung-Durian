@@ -12,7 +12,7 @@ db_toko = connect_toko()
 database = db_toko.cursor()
 
 #token
-token = ("1800584112:AAGyyFL0s_TtYu-BM8RjQHb2ozgq9jrwV6I")
+token = ("somethingliketokentelegram")
 bot = telebot.TeleBot(token)
 
 nama_toko = None
